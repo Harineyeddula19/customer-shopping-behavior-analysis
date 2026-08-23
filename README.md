@@ -1,5 +1,7 @@
 # Customer Shopping Behavior Analysis
 
+An end-to-end data analytics project analyzing customer shopping behavior, sales performance, customer characteristics, and product performance using Excel, Python, SQL, and Power BI.
+
 ## Project Overview
 
 This project analyzes customer shopping behavior to understand sales performance, customer characteristics, purchasing patterns, and product performance.
@@ -50,6 +52,39 @@ The dataset contains customer, product, purchase, and transaction-related inform
 ## Project Workflow
 
 **Excel → Python → SQL → Power BI**
+## Repository Structure
+
+```text
+customer-shopping-behavior-analysis/
+│
+├── README.md
+│
+├── data/
+│   └── customer_shopping_behavior_original.csv
+│
+├── excel/
+│   └── customer_shopping_behavior_analysis.xlsx
+│
+├── python/
+│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│
+├── sql/
+│   └── customer_shopping_analysis.sql
+│
+├── powerbi/
+│   └── Customer_Shopping_Behavior_Analysis.pbix
+│
+├── dashboard/
+│   ├── Customer Analysis.jpg
+│   ├── Executive Dashboard.jpg
+│   ├── Executive Overview.jpg
+│   └── Product & Sales Analysis.jpg
+│
+└── documentation/
+    └── Customer_Shopping_Behavior_Analysis_Documentation.pdf
+```
+
+
 
 ### 1. Excel – Initial Data Inspection
 
@@ -170,6 +205,27 @@ SUM('Customer Shopping'[Purchase Amount (USD)])
 ## Power BI Dashboard
 
 The final dashboard consists of four pages.
+
+
+### Dashboard Preview
+
+#### Executive Overview
+
+![Executive Overview](dashboard/Executive%20Overview.jpg)
+
+#### Customer Analysis
+
+![Customer Analysis](dashboard/Customer%20Analysis.jpg)
+
+#### Product & Sales Analysis
+
+![Product & Sales Analysis](dashboard/Product%20%26%20Sales%20Analysis.jpg)
+
+#### Executive Dashboard
+
+![Executive Dashboard](dashboard/Executive%20Dashboard.jpg)
+
+
 
 ### Page 1 – Executive Overview
 
