@@ -29,9 +29,11 @@ The main objective of this project is to analyze customer shopping data and iden
 
 ## Dataset
 
+
 - **Records:** 3,900
 - **Attributes:** 18
 - **Domain:** Customer Shopping Behavior
+- **Source:** [Kaggle – Customer Shopping Behavior Dataset](https://www.kaggle.com/datasets/ayeshasiddiqa123/customer-shopping-behavior-dataset)
 
 The dataset contains customer, product, purchase, and transaction-related information used to analyze shopping behavior and sales performance.
 
@@ -52,6 +54,7 @@ The dataset contains customer, product, purchase, and transaction-related inform
 ## Project Workflow
 
 **Excel → Python → SQL → Power BI**
+
 ## Repository Structure
 
 ```text
@@ -379,6 +382,4 @@ Detailed project documentation covering the complete workflow, analysis, DAX mea
 
 ---
 
-## Author
 
-**Yeddula Harine**
